@@ -8,7 +8,27 @@ if (typeof window === 'undefined'){
  * Returns a 2D array (8 by 8) with two black pieces at [3, 4] and [4, 3]
  * and two white pieces at [3, 3] and [4, 4]
  */
-function _makeGrid () {
+function _makeGrid (8) {
+  grid = for(let rows = 0; rows < 8; rows++){
+    console.log(x);
+    for(let columns = 0; columns < 8; columns++){
+      console.log(x);
+    }
+  }
+  console.log(grid)
+
+  // let grid = [];
+  // for (let i = 0; i < 8; i++) {
+  //   let row = new Array(8);
+  //   grid.push(row);
+
+ 
+  // grid[3][4] = new Piece("black");
+  // grid[4][4] = new Piece("black");
+  // grid[4][3] = new Piece("white");
+  // grid[3][3] = new Piece("white");
+  // return grid;
+  // }
 }
 
 /**
